@@ -1,2 +1,2 @@
 # beats-landingpage
-this is a landing page for an headset
+Responsive design, sleek UI. Easy customization. Elevate your website with our code!

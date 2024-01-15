@@ -73,11 +73,46 @@ written p{
     top:33px;
     line-height: 28px;
 }
+.btn{
+    height: 12%;
+    width: 38%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    background-color: #181818;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 26px;
+}
+.btn p{
+    font-size: 19px;
+    font-weight: 600;
+}
 .section2{
     height: 100vh;
-    background-color: antiquewhite;
+    background-color: #0f0f0f;
 }
+.apps{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+}
+
+
 .section3{
     height: 100vh;
     background-color: bisque;
+}
+.section4{
+    height: 100vh;
+    background-color: aqua;
+}
+.section5{
+    height: 100vh;
+    background-color: aquamarine;
 }

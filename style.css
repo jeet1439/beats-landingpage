@@ -93,14 +93,19 @@ written p{
     font-weight: 600;
 }
 .section2{
-    height: 100vh;
+    height: 110vh;
     background-color: #0f0f0f;
 }
 .apps{
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    justify-content: center;
+    justify-content: space-evenly;;
+}
+.speces{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
 }
 
 
@@ -114,5 +119,6 @@ written p{
 }
 .section5{
     height: 100vh;
+    margin-top: 20px;
     background-color: aquamarine;
 }

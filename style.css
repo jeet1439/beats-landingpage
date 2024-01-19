@@ -62,9 +62,13 @@ li.shop{
         left: 1px;
         height: 1px;
         width: 1px;
+
     }
-    .mainset img{
-    display: none;
+   .mainset img{ 
+    left: 2px;
+    position: absolute;
+    left: -50px;
+    top: 17px;
     }
     .hamburger{
     display: block;
@@ -81,6 +85,7 @@ li.shop{
    .written{
     margin-left:-29.5%;
     width: 90%;
+    z-index: 3;
    }
    .written img{
     width: 270px;
@@ -175,11 +180,14 @@ written p{
     margin-top: 50px;
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:950px){
     .section1{
         height: 90vh;
     }
 }
+
+
+
 .section3{
     height: 100vh;
     background-color: bisque;

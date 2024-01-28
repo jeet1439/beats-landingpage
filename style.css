@@ -40,6 +40,7 @@ li.shop{
     height: -28px;
     padding: 15px 51px 15px 54px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .hamburger{
@@ -56,11 +57,14 @@ li.shop{
     border-radius: 2px;
 }
 @media(max-width:1045px){
-    .mainset{    
-    display: none;
+    .mainset{
+        position: absolute;
+        left: 1px;
+        height: 1px;
+        width: 1px;
     }
     .mainset img{
-        width: 5px;
+    display: none;
     }
     .hamburger{
     display: block;
@@ -71,17 +75,17 @@ li.shop{
     nav ul{
         display: none;
     }
-    .written{
-        left: 3.5%;
-    }
+    
 }
-@media only screen and (max-width:450px){
-   .written img{
-    width: 325px;
-   }
+@media only screen and (max-width:1016px){
    .written{
-    left: 4.5%;
+    margin-left:-29.5%;
+    width: 90%;
    }
+   .written img{
+    width: 270px;
+   }
+
 }
 
 
@@ -109,7 +113,7 @@ li.shop{
     position: absolute;
     left: 38.5%;
     height: 75%;
-    width: 58%;
+    /*width: 58.5%;*/
     top: 18%;
     color: #fff;
 }
@@ -124,7 +128,7 @@ written p{
 }
 .btn{
     height: 12%;
-    width: 38%;
+    width: 55%;
     align-items: center;
     display: flex;
     align-items: center;
@@ -141,6 +145,11 @@ written p{
     font-size: 19px;
     font-weight: 600;
 }
+.btn img{
+    height: 30px;
+    width: 29px;
+}
+
 .section2{
     height: 110vh;
     background-color: #0f0f0f;
@@ -150,6 +159,15 @@ written p{
     flex-direction: row;
     justify-content: space-evenly;;
 }
+@media only screen and (max-width:450px){
+    .apps img{
+        width: 50px;
+        height: 20px;
+    }
+    .btn{
+        width: 92%;
+    }
+}
 .speces{
     position: absolute;
     left: 50%;
@@ -157,7 +175,11 @@ written p{
     margin-top: 50px;
 }
 
-
+@media only screen and (max-width:400px){
+    .section1{
+        height: 90vh;
+    }
+}
 .section3{
     height: 100vh;
     background-color: bisque;

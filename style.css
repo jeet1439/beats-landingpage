@@ -41,6 +41,54 @@ li.shop{
     padding: 15px 51px 15px 54px;
     border-radius: 4px;
 }
+
+.hamburger{
+    display: none;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    border-radius: 2px;
+}
+@media(max-width:1045px){
+    .mainset{    
+    display: none;
+    }
+    .mainset img{
+        width: 5px;
+    }
+    .hamburger{
+    display: block;
+    position: fixed;
+    top: 33px;
+    right: 20px 
+    }
+    nav ul{
+        display: none;
+    }
+    .written{
+        left: 3.5%;
+    }
+}
+@media only screen and (max-width:450px){
+   .written img{
+    width: 325px;
+   }
+   .written{
+    left: 4.5%;
+   }
+}
+
+
+
+
+
+
 .logo{
     position: absolute;
     top: 31px;
@@ -54,7 +102,8 @@ li.shop{
     z-index: 2;
     position: absolute;
     top: -160px;
-    left: 72px;
+    left: 72px;                   
+    
 }
 .written{
     position: absolute;

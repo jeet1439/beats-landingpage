@@ -218,7 +218,8 @@ written p{
     }
     .specitem{
         column-gap: 0px;
-        top:117%
+        top:117%;
+        left: 13px;
     }
 }
 
@@ -275,10 +276,60 @@ written p{
 }
 .section4{
     height: 100vh;
-    background-color: aqua;
+    background-color: #0f0f0f;
+}
+
+.buy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 5%;
+    height: 45%;
+    width: 70%;
+    position: relative;
+    background-color: #1d1d1d;
+    margin-left: 15%;
+    margin-right: 19%;
+    border-radius: 4px;
+    color: #fff;
+    gap: 35px;
+    margin-bottom: 50px;
+}
+.compactimg img{
+max-width: 100%;
+}
+
+.buy p{
+    color: gainsboro;
+    margin-top: 15px;
+}
+.buybtn{
+    background: #000;
+    height: 48px;
+    width: 64%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 44px;
+    border-radius: 2px;
+}
+.compactimg{
+    display: flex;
+    justify-content: center;
+ 
+}
+@media only screen and (max-width:884px){
+    .buy{
+    flex-direction: column;
+    height: 70%;
+    }
+    .buybtn{
+        margin-left: 40px;
+    }
 }
 .section5{
     height: 100vh;
-    margin-top: 20px;
-    background-color: aquamarine;
+    background-color: #0f0f0f;
 }

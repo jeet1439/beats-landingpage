@@ -384,3 +384,16 @@ max-width: 100%;
     top: -46%;
     left: 75%;
 }
+.footer{
+    display: flex;
+    color: white;
+    position: absolute;
+    row-gap: 30px;
+    column-gap: 43%;
+    list-style: none;
+    
+}
+.pcm li{
+    width: 150px;
+    gap: 30px;
+}

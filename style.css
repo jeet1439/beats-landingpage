@@ -460,3 +460,23 @@ ul{
     width: 100%;
 }
 }
+@media only screen and (max-width:395px){
+    .mainset{
+        left: 37px;
+    }
+
+    #choose_style{
+        max-width: 270px
+    }
+    #choose_style img{
+        max-width: 286px
+    }
+
+    .headset{
+        margin-left: -78px;
+    }
+    .headset img{
+        margin-left: -9%;
+        margin-top: 65%;
+    }
+}

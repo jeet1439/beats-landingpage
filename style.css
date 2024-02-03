@@ -4,8 +4,11 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+.body{
+    max-width: 1400px;
+}
 nav{
-    background-color:#0f0f0f;
+    background-color:#0f0f0f; 
     position: fixed;
     margin-top: 0px;
     left: 0;
